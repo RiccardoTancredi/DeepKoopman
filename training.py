@@ -7,6 +7,8 @@ import tensorflow as tf
 import helperfns
 import networkarch as net
 
+import logging
+tf.get_logger().setLevel(logging.ERROR)
 
 def define_loss(x, y, g_list, weights, biases, params):
     """Define the (unregularized) loss functions for the training.

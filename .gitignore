@@ -1,0 +1,6 @@
+
+*.pyc
+*.csv
+res/*
+.env/*
+send_data.py
